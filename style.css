@@ -108,3 +108,83 @@ body {
   display: block;
   margin: 0 auto;
 }
+
+@media (max-width: 795px) {
+  .conteudo-principal-titulo {
+    margin-left: 20%;
+  }
+
+  .conteudo-principal-subtitulo {
+    margin-left: 20%;
+  }
+
+  .conteudo-principal-botão {
+    margin-left: 20%;
+  }
+
+  .conteudo-secundario {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+}
+
+@media (max-width: 733px) {
+  .conteudo-principal-titulo {
+    margin-left: 20%;
+    font-size: 48px;
+  }
+
+  .conteudo-principal-subtitulo {
+    margin-left: 20%;
+    font-size: 20px;
+  }
+
+  .conteudo-principal-botão {
+    width: 100px;
+    height: 52px;
+    font-size: 16px;
+  }
+
+  .conteudo-secundario {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  .conteudo-secundario-texto {
+    font-size: 16px;
+  }
+
+  .conteudo-principal-logo-balle-bot {
+    width: 300px;
+    height: 250px;
+  }
+}
+
+@media (max-width: 510px) {
+  .logo-comunidade-ballerini,
+  .conteudo-principal-logo-balle-bot {
+    display: none;
+  }
+
+  .cabeçalho-menu-link {
+    font-size: 12px;
+    display: block;
+    margin: 0 auto;
+  }
+
+  .conteudo-principal-botão,
+  .conteudo-principal-titulo,
+  .conteudo-principal-subtitulo {
+    display: block;
+    margin: 0 auto;
+  }
+
+  .conteudo-principal-subtitulo {
+    font-size: 14px;
+  }
+
+  .rodape-imagem {
+    display: block;
+    margin: 0 auto;
+  }
+}
